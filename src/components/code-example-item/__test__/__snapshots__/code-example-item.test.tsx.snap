@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeExampleItem renders correctly 1`] = `
+<div>
+  <div
+    class="css-4g6ai3"
+  >
+    <div
+      class="css-okkwv0"
+    >
+      <div
+        class="chakra-linkbox css-isg2pc"
+      >
+        <div
+          class="chakra-aspect-ratio css-1uwuser"
+          data-testid="code-example-item-poster"
+        >
+          <div
+            class="css-v2kfba"
+          />
+        </div>
+        <a
+          class="chakra-linkbox__overlay css-1hnz6hu"
+          data-testid="code-example-item-onclick"
+          href="#"
+        >
+          <p
+            class="chakra-text css-5yjrf7"
+            data-testid="code-example-item-title"
+          >
+            test city
+          </p>
+        </a>
+      </div>
+      <a
+        class="chakra-link css-19uv7gw"
+        data-testid="code-example-item-source"
+        href="test_source"
+        rel="noopener"
+        target="_blank"
+      >
+        <div
+          class="css-1dnaxzp"
+        >
+          <p
+            class="chakra-text css-0"
+          >
+            Source
+          </p>
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <desc />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"
+            />
+            <line
+              x1="10"
+              x2="20"
+              y1="14"
+              y2="4"
+            />
+            <polyline
+              points="15 4 20 4 20 9"
+            />
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

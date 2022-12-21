@@ -1,0 +1,126 @@
+[
+  {
+    "company": "Workinman Interactive",
+    "title": "Senior Games Developer (HTML)",
+    "start": "2022-03-01T12:00-0500",
+    "end": "2022-09-30T12:00-0500",
+    "description": "Developed a web-based NFT game using React and Pixi.js. Features included land building, battle simulations, and trading of NFT assets between players. I dockerized the application and deployed demos to AWS Lightsail.",
+    "achievements": [
+      "React and Pixi web-based gameplay development",
+      "Developed 50 APIs with MySQL integration",
+      "Responsive design for mobile or desktop",
+      "Setup Docker builds with AWS deployments"
+    ],
+    "skillset": ["Javascript", "Node", "SQL", "Pixi.js", "React", "Docker"]
+  },
+  {
+    "company": "Hypergiant",
+    "title": "Senior Front End Developer",
+    "start": "2021-05-01T12:00-0500",
+    "end": "2021-12-30T12:00-0500",
+    "description": "Hypergiant is an AI and technology company. During my time here I worked on some test coverage for embedded systems, and web-based projects to display AI results.",
+    "achievements": [
+      "Created Brightscript unit tests and test documentation for Roku",
+      "Developed web apps using Next.js, React, Chakra UI",
+      "Worked with data scientists and UX designers to display AI results"
+    ],
+    "skillset": [
+      "Javascript",
+      "React",
+      "Brightscript",
+      "Next.js",
+      "Threej.js",
+      "Roku"
+    ]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "company": "ServiceNow",
+    "start": "2019-04-01T12:00-0500",
+    "end": "2021-06-01T12:00-0500",
+    "description": "ServiceNow is a leading ITSM solutions provider for some of the world's largest companies. During my time here I worked with a team of engineers to develop UI Builder, a low code editor for building pages on the platform.",
+    "achievements": [
+      "Worked with a team to develop and deploy UI Builder for ServiceNow",
+      "Solved complex problems while integrating platform features with the application",
+      "Developed full-stack features using web components and Java",
+      "Created unit tests for frontend functionality and REST APIs"
+    ],
+    "skillset": ["Javascript", "Java", "IntelliJ", "GraphQL", "XML"]
+  },
+  {
+    "title": "Senior Front End Developer",
+    "company": "Gogo Air",
+    "start": "2014-04-01T12:00-0500",
+    "end": "2019-01-01T12:00-0500",
+    "description": "Gogo is a aerospace telecommunication company offering inflight internet and entertainment. My primary role at Gogo was development of GogoVision, an inflight entertainment service. I created stream video features for airlines such as Delta, United, and American.",
+    "achievements": [
+      "GogoVision video streaming service for airlines",
+      "Custom branding of turn-key products and feature development",
+      "Implemented application features such as analytics and internationalization",
+      "Resolve technical issues with test environments and Jenkins"
+    ],
+    "skillset": [
+      "Javascript",
+      "Backbone",
+      "React",
+      "Jenkins",
+      "Webpack",
+      "Mustache",
+      "Marionette"
+    ]
+  },
+  {
+    "title": "Software Development Engineer",
+    "company": "Samsung Accelerator",
+    "start": "2013-05-01T12:00-0500",
+    "end": "2014-04-01T12:00-0500",
+    "description": "Samsung Accelerator (now Samsung NEXT), is a software development program for creating new solutions that integrate with Samsung Electronics. My role was to develop prototypes and web support for Android applications.",
+    "achievements": [
+      "Application feature prototypes",
+      "Responsive html email and web design",
+      "Web application development"
+    ],
+    "skillset": [
+      "Javascript",
+      "Cordova",
+      "Java for Android",
+      "Google Maps",
+      "Jade Templates"
+    ]
+  },
+  {
+    "title": "Application Developer",
+    "company": "Grey Healthcare Group",
+    "start": "2012-12-01T12:00-0500",
+    "end": "2013-06-01T12:00-0500",
+    "description": "GHG (now Wunderman Thompson Health) is a leading digital marketing services agency for the healthcare industry. During my time here I completed a few projects including building responsive websites and iPad marketing products.",
+    "achievements": [
+      "iBook widget and CSS animations using Sencha Animator",
+      "Responsive website development with SEO",
+      "Converted wireframe and designs into pixel accurate layouts"
+    ],
+    "skillset": ["jQuery", "PHP", "Javascript", "CSS", "iBook", "Photoshop"]
+  },
+  {
+    "title": "Production Designer",
+    "company": "The Daily",
+    "start": "2011-02-19T12:59-0500",
+    "end": "2012-12-19T12:59-0500",
+    "description": "The Daily was the first daily-published interactive news app for the iPad. I worked in a newsroom with editors and designers to create interactive articles, prototypes, and custom features.",
+    "achievements": [
+      "Built interactive features for stories",
+      "Integrated 3rd-party APIs like Facebook, Mapbox, Trendrr",
+      "Worked with editors nightly to fix technical issues",
+      "Developed product prototypes for focus groups"
+    ],
+    "skillset": [
+      "Javascript",
+      "WebViews",
+      "CSS3",
+      "PHP",
+      "Mapbox",
+      "Photoshop",
+      "Illustrator"
+    ]
+  }
+]

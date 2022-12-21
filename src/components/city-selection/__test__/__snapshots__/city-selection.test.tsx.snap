@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CitySelection renders correctly 1`] = `
+<div>
+  <div
+    class="chakra-editable css-1jijfcn"
+  >
+    <div
+      class="css-1h2sv0j"
+    >
+      <h2
+        class="chakra-heading css-1ixkcyz"
+        data-testid="city-selection-heading"
+      >
+        <span
+          class="chakra-editable__preview css-1gasyng"
+        >
+          test city
+        </span>
+      </h2>
+      <input
+        class="chakra-editable__input css-1s340xu"
+        hidden=""
+        value="test city"
+      />
+      <div
+        class="css-1l4w6pd"
+      >
+        <button
+          aria-label="Edit"
+          class="chakra-button css-1gbpnky"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

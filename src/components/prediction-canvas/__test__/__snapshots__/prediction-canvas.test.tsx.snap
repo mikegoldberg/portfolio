@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PredictionCanvas renders correctly 1`] = `
+<div>
+  <canvas
+    data-testid="prediction-canvas-canvas"
+    style="width: 100px; height: 100px; position: absolute; z-index: 100; display: block;"
+  />
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

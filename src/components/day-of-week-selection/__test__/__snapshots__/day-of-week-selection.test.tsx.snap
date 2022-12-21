@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayOfWeekSelection renders correctly 1`] = `
+<div>
+  <div
+    class="css-qhu0uq"
+  >
+    <button
+      class="chakra-button css-1oirpja"
+      data-date="12-01-2022"
+      data-testid="day-of-week-selection-day-of-week"
+      type="button"
+    >
+      Thu
+    </button>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

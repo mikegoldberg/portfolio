@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Role renders correctly 1`] = `
+<div>
+  <div
+    class="css-1is0qkf"
+  >
+    <div
+      class="css-jqwek2"
+    >
+      <p
+        class="chakra-text css-5yjrf7"
+        data-testid="role-title"
+      >
+        job title
+      </p>
+    </div>
+    <div
+      class="css-1w6vqyc"
+    >
+      <p
+        class="chakra-text css-tjwf6p"
+        data-testid="role-company"
+      >
+        company name
+      </p>
+      <div
+        class="css-1ncd50l"
+      >
+        <time
+          data-testid="role-start"
+          datetime="1646154000000"
+        >
+          Mar 2022
+        </time>
+        <p
+          class="chakra-text css-0"
+        >
+          -
+        </p>
+        <time
+          data-testid="role-end"
+          datetime="1664557200000"
+        >
+          Sep 2022
+        </time>
+        <p
+          class="chakra-text css-0"
+        >
+          ( 6 mos)
+        </p>
+      </div>
+    </div>
+    <p
+      class="chakra-text css-ezl6qi"
+      data-testid="role-description"
+    >
+      test description.
+    </p>
+    <ul
+      class="css-19kmp78"
+      data-testid="role-achievements"
+      role="list"
+    >
+      <li
+        class="css-1msjh1x"
+      >
+        achievements 1
+      </li>
+      <li
+        class="css-1msjh1x"
+      >
+        achievements 2
+      </li>
+    </ul>
+    <div
+      class="css-sq4ju6"
+      data-testid="role-skillset"
+    >
+      <span
+        class="css-1soqvl"
+      >
+        <span
+          class="css-1adgxkr"
+        >
+          test skill 1
+        </span>
+      </span>
+      <span
+        class="css-1soqvl"
+      >
+        <span
+          class="css-1adgxkr"
+        >
+          test skill 2
+        </span>
+      </span>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
