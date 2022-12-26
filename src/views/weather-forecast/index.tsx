@@ -14,8 +14,7 @@ import { HourlyForecastHandler } from "../../components/hourly-forecast/types";
 
 const WeatherForecast = () => {
   const hourlyForecastRef = useRef<HourlyForecastHandler>(null);
-  const { weatherByDay, city, loaded, error, changeWeatherLocation } =
-    useWeather();
+  const { weatherByDay, city, loaded, error, fetchWeather } = useWeather();
   const { activeDayOfWeek, setActiveDayOfWeek } = useActiveDayOfWeek({
     weatherByDay,
   });
@@ -36,7 +35,7 @@ const WeatherForecast = () => {
       <Flex alignItems={"center"} justifyContent="space-between">
         <CitySelection
           city={city}
-          onSubmit={(name: string) => changeWeatherLocation(name)}
+          onSubmit={(name: string) => fetchWeather(name)}
         />
         {error ? (
           <Flex alignItems={"center"} gap="5px" color="red">

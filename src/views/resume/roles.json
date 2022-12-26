@@ -6,9 +6,9 @@
     "end": "2022-09-30T12:00-0500",
     "description": "Developed a web-based NFT game using React and Pixi.js. Features included land building, battle simulations, and trading of NFT assets between players. I dockerized the application and deployed demos to AWS Lightsail.",
     "achievements": [
-      "React and Pixi web-based gameplay development",
-      "Developed 50 APIs with MySQL integration",
-      "Responsive design for mobile or desktop",
+      "Created React and Pixi web-based gameplay development",
+      "Developed REST APIs and backend services with MySQL integration",
+      "Built responsive designs for mobile or desktop",
       "Setup Docker builds with AWS deployments"
     ],
     "skillset": ["Javascript", "Node", "SQL", "Pixi.js", "React", "Docker"]
@@ -52,7 +52,7 @@
     "company": "Gogo Air",
     "start": "2014-04-01T12:00-0500",
     "end": "2019-01-01T12:00-0500",
-    "description": "Gogo is a aerospace telecommunication company offering inflight internet and entertainment. My primary role at Gogo was development of GogoVision, an inflight entertainment service. I created stream video features for airlines such as Delta, United, and American.",
+    "description": "Gogo is a aerospace telecommunication company offering inflight internet and entertainment. My primary role at Gogo was focused on development of GogoVision, an inflight entertainment service. I created streaming video features for airlines such Delta, United, and American.",
     "achievements": [
       "GogoVision video streaming service for airlines",
       "Custom branding of turn-key products and feature development",
