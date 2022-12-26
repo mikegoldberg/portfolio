@@ -2,8 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { formatDate } from "../helpers";
 
-const API_KEY = "NASA_API_KEY";
-const ENDPOINT_NASA_APOD = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+const ENDPOINT_NASA_APOD = "https://webkitstudio.com/services/apod.php";
 const DEFAULT_TOTAL_RESULTS = 5;
 
 export type UseApodResults = {
@@ -55,7 +54,7 @@ const useApod = () => {
 
     axios
       .get(
-        `${ENDPOINT_NASA_APOD}&thumbs=true&start_date=${startDate}&end_date=${endDate}`
+        `${ENDPOINT_NASA_APOD}?thumbs=true&start_date=${startDate}&end_date=${endDate}`
       )
       .then(({ data }) => {
         const items = data.map((item: ApodDataItem) => ({

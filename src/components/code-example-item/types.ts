@@ -1,8 +1,6 @@
-import { MouseEventHandler } from "react";
-
 export interface CodeExampleItemProps {
   title: string;
   poster: string;
-  onClick: MouseEventHandler;
+  onClickExampleItem: (title: string) => void;
   source: string;
 }

@@ -6,7 +6,7 @@ import { CodeExampleItemProps } from "../types";
 const defaultProps: CodeExampleItemProps = {
   title: "test city",
   poster: "test_poster",
-  onClick: jest.fn(),
+  onClickExampleItem: jest.fn(),
   source: "test_source",
 };
 

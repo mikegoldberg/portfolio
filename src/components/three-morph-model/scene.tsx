@@ -4,7 +4,6 @@ import { useLoader } from "@react-three/fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Mesh } from "three";
 import { SceneProps } from "./types";
-import * as TEST_DRIVERS from "./__test__/drivers";
 
 export default function Scene({
   mouthMorph,

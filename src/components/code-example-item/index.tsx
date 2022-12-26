@@ -6,7 +6,6 @@ import {
   AspectRatio,
   Link,
   LinkBox,
-  LinkOverlay,
 } from "@chakra-ui/react";
 import { TbExternalLink } from "react-icons/tb";
 import { CodeExampleItemProps } from "./types";
@@ -16,7 +15,7 @@ const CodeExampleItem = ({
   title,
   poster,
   source,
-  onClick,
+  onClickExampleItem,
 }: CodeExampleItemProps) => {
   return (
     <GridItem cursor="pointer">
@@ -30,14 +29,11 @@ const CodeExampleItem = ({
             backgroundImage={poster}
             backgroundSize="contain"
             data-testid={TEST_DRIVERS.POSTER}
+            onClick={() => onClickExampleItem(title)}
           >
             <Box height="100%" width="100%"></Box>
           </AspectRatio>
-          <LinkOverlay
-            href="#"
-            onClick={onClick}
-            data-testid={TEST_DRIVERS.ONCLICK}
-          >
+          <Box data-testid={TEST_DRIVERS.ONCLICK}>
             <Text
               fontWeight="700"
               fontSize="xl"
@@ -45,7 +41,7 @@ const CodeExampleItem = ({
             >
               {title}
             </Text>
-          </LinkOverlay>
+          </Box>
         </LinkBox>
         <Link
           isExternal={true}

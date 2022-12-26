@@ -19,10 +19,9 @@ exports[`CodeExampleItem renders correctly 1`] = `
             class="css-v2kfba"
           />
         </div>
-        <a
-          class="chakra-linkbox__overlay css-1hnz6hu"
+        <div
+          class="css-0"
           data-testid="code-example-item-onclick"
-          href="#"
         >
           <p
             class="chakra-text css-5yjrf7"
@@ -30,7 +29,7 @@ exports[`CodeExampleItem renders correctly 1`] = `
           >
             test city
           </p>
-        </a>
+        </div>
       </div>
       <a
         class="chakra-link css-19uv7gw"

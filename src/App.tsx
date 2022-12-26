@@ -1,13 +1,12 @@
 import { ChakraProvider, Box, Flex } from "@chakra-ui/react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Resume, CodeExamples } from "./views";
 import { defaultDark } from "./theme";
 import { Navigation, ColorModeSwitcher } from "./components";
 import { useScrollToTop as UseScrollToTop } from "./hooks";
-
 export const App = () => (
   <ChakraProvider theme={defaultDark}>
-    <BrowserRouter>
+    <HashRouter>
       <UseScrollToTop />
       <ColorModeSwitcher />
       <Flex>
@@ -19,6 +18,6 @@ export const App = () => (
           </Routes>
         </Box>
       </Flex>
-    </BrowserRouter>
+    </HashRouter>
   </ChakraProvider>
 );

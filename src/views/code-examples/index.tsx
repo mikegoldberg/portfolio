@@ -21,7 +21,7 @@ const CodeExamples = () => {
     "blackAlpha.700",
     "whiteAlpha.700"
   );
-  const { view = null } =
+  const { view: demoView = null } =
     demoComponents.find(({ title }) => title === demoTitle) || {};
 
   return (
@@ -34,9 +34,9 @@ const CodeExamples = () => {
         "80px 90px",
       ]}
     >
-      {view ? (
+      {demoView ? (
         <Modal
-          isOpen={view !== null}
+          isOpen={demoView !== null}
           onClose={() => setDemoTitle(null)}
           size={["full", "full", "3xl"]}
         >
@@ -44,7 +44,7 @@ const CodeExamples = () => {
           <ModalContent>
             <ModalHeader>{demoTitle}</ModalHeader>
             <ModalCloseButton />
-            <ModalBody>{createElement(view)}</ModalBody>
+            <ModalBody>{createElement(demoView)}</ModalBody>
           </ModalContent>
         </Modal>
       ) : null}
@@ -71,7 +71,7 @@ const CodeExamples = () => {
             key={idx}
             title={title}
             poster={poster}
-            onClick={() => setDemoTitle(title)}
+            onClickExampleItem={setDemoTitle}
             source={source}
           />
         ))}
