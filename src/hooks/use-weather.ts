@@ -77,14 +77,24 @@ const useWeather = () => {
   });
 
   const fetchWeather = async (name?: string) => {
-    const queryParams = name && name.length > 0 ? `?city=${name}` : "";
+    const queryParams =
+      name && name.length > 0 ? `?city=${encodeURIComponent(name)}` : "";
     const cityForecast = await axios
       .get(`${WEATHER_ENDPOINT}${queryParams}`)
       .catch(() => setError("Error getting weather."));
-    const weatherByDay = getWeatherByDay(cityForecast?.data.forecast);
 
-    setWeatherByDay(weatherByDay);
-    setCity(cityForecast?.data.city);
+    if (cityForecast?.data.code !== 200) {
+      setError(cityForecast?.data.message);
+    }
+
+    if (cityForecast?.data.code === 200) {
+      const weatherByDay = getWeatherByDay(cityForecast?.data.forecast);
+
+      setWeatherByDay(weatherByDay);
+      setCity(cityForecast?.data.city);
+      setError(null);
+    }
+
     setLoaded(true);
   };
 
