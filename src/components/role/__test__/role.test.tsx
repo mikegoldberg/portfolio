@@ -6,6 +6,7 @@ import * as TEST_DRIVERS from "./drivers";
 
 const defaultProps: RoleProps = {
   company: "company name",
+  contract: true,
   title: "job title",
   start: "2022-03-01T12:00-0500",
   end: "2022-09-30T12:00-0500",

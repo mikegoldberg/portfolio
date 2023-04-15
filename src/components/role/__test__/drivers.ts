@@ -5,3 +5,4 @@ export const ACHIEVEMENTS = "role-achievements";
 export const SKILLSET = "role-skillset";
 export const START = "role-start";
 export const END = "role-end";
+export const CONTRACT = "role-contract";

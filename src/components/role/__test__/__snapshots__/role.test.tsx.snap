@@ -16,7 +16,7 @@ exports[`Role renders correctly 1`] = `
       </p>
     </div>
     <div
-      class="css-1w6vqyc"
+      class="css-1t3xfl2"
     >
       <p
         class="chakra-text css-tjwf6p"
@@ -24,32 +24,37 @@ exports[`Role renders correctly 1`] = `
       >
         company name
       </p>
-      <div
-        class="css-1ncd50l"
+      <p
+        class="chakra-text css-c38tlu"
       >
-        <time
-          data-testid="role-start"
-          datetime="1646154000000"
-        >
-          Mar 2022
-        </time>
-        <p
-          class="chakra-text css-0"
-        >
-          -
-        </p>
-        <time
-          data-testid="role-end"
-          datetime="1664557200000"
-        >
-          Sep 2022
-        </time>
-        <p
-          class="chakra-text css-0"
-        >
-          ( 6 mos)
-        </p>
-      </div>
+        – Contract
+      </p>
+    </div>
+    <div
+      class="css-fvg7w"
+    >
+      <time
+        data-testid="role-start"
+        datetime="1646154000000"
+      >
+        Mar 2022
+      </time>
+      <p
+        class="chakra-text css-0"
+      >
+        -
+      </p>
+      <time
+        data-testid="role-end"
+        datetime="1664557200000"
+      >
+        Sep 2022
+      </time>
+      <p
+        class="chakra-text css-0"
+      >
+        ( 6 mos)
+      </p>
     </div>
     <p
       class="chakra-text css-ezl6qi"

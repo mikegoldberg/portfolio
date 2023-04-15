@@ -59,6 +59,7 @@ const Resume = () => {
             description,
             start,
             end,
+            contract,
           } = role;
 
           return (
@@ -71,6 +72,7 @@ const Resume = () => {
               start={start}
               achievements={achievements}
               end={end}
+              contract={contract}
             />
           );
         })}

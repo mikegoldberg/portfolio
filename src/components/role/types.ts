@@ -4,7 +4,8 @@ type Description = string;
 type Skillset = Array<string>;
 type Achievements = Array<string>;
 type Start = string;
-type End = string;
+type End = string | null;
+type Contract = boolean;
 
 export interface RoleProps {
   title: Title;
@@ -14,4 +15,5 @@ export interface RoleProps {
   achievements: Achievements;
   start: Start;
   end: End;
+  contract: Contract;
 }

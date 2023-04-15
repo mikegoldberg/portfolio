@@ -13,6 +13,7 @@ import ThreeMorphModel from "./three-morph-model";
 import WeatherChart from "./weather-chart";
 import Webcam from "./webcam";
 import WebRtcCanvas from "./webrtc-canvas";
+import Aurora from "./aurora";
 
 export {
   CitySelection,
@@ -30,4 +31,5 @@ export {
   WeatherChart,
   Webcam,
   WebRtcCanvas,
+  Aurora,
 };

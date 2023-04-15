@@ -22,9 +22,10 @@ const Role = ({
   skillset = [],
   start = "",
   end = "",
+  contract = false,
 }: RoleProps) => {
   const startMoment = moment(start);
-  const endMoment = moment(end);
+  const endMoment = moment(end ? end : Date.now());
   const duration = endMoment.diff(startMoment, "months");
   const colors = {
     title: useColorModeValue("blackAlpha.900", "whiteAlpha.900"),
@@ -43,36 +44,29 @@ const Role = ({
         <Text fontWeight="700" fontSize="xl" data-testid={TEST_DRIVERS.TITLE}>
           {title}
         </Text>
-        {/* {contract && (
-          <Text
-            paddingLeft="10px"
-            fontStyle="italic"
-            fontWeight="500"
-            fontSize="lg"
-          >
-            {"Contract"}
-          </Text>
-        )} */}
       </Flex>
       <Flex
         direction={["column", "row"]}
         color={colors.company}
-        gap="10px"
-        alignItems={["start", "end"]}
+        gap="5px"
+        alignItems={["start", "center"]}
       >
         <Text fontWeight={500} fontSize="lg" data-testid={TEST_DRIVERS.COMPANY}>
           {company}
         </Text>
-        <Flex gap="5px" color={colors.period} whiteSpace="nowrap">
-          <Moment format="MMM YYYY" data-testid={TEST_DRIVERS.START}>
-            {start}
-          </Moment>
-          <Text>-</Text>
-          <Moment format="MMM YYYY" data-testid={TEST_DRIVERS.END}>
-            {end}
-          </Moment>
-          <Text>{formatDuration(duration)}</Text>
-        </Flex>
+        <Text fontWeight="200" fontSize="md" opacity={0.7}>
+          {`– ${contract ? "Contract" : "Full-time"}`}
+        </Text>
+      </Flex>
+      <Flex gap="5px" color={colors.period} whiteSpace="nowrap" marginTop="2px">
+        <Moment format="MMM YYYY" data-testid={TEST_DRIVERS.START}>
+          {start}
+        </Moment>
+        <Text>-</Text>
+        {end ? <Moment format="MMM YYYY" data-testid={TEST_DRIVERS.END}>
+          {end}
+        </Moment> : <Text>{"present"}</Text>}
+        <Text>{formatDuration(duration)}</Text>
       </Flex>
       <Text
         padding="10px 0"

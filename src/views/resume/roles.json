@@ -1,6 +1,21 @@
 [
   {
+    "company": "Penn Game Studios",
+    "contract": false,
+    "title": "Senior Frontend Developer",
+    "start": "2023-02-01T12:00-0500",
+    "end": null,
+    "description": "Developed multiple tools for managing games, jackpots, player round information and system users.",
+    "achievements": [
+      "React + Chakra UI frontend development",
+      "Cross-functional team collaboration with API developers to build required feature-sets",
+      "Implemented shared component design system architecture"
+    ],
+    "skillset": ["Typescript", "Javascript", "React", "Chakra UI"]
+  },
+  {
     "company": "Workinman Interactive",
+    "contract": true,
     "title": "Senior Games Developer (HTML)",
     "start": "2022-03-01T12:00-0500",
     "end": "2022-09-30T12:00-0500",
@@ -15,10 +30,11 @@
   },
   {
     "company": "Hypergiant",
+    "contract": true,
     "title": "Senior Front End Developer",
     "start": "2021-05-01T12:00-0500",
     "end": "2021-12-30T12:00-0500",
-    "description": "Hypergiant is an AI and technology company. During my time here I worked on some test coverage for embedded systems, and web-based projects to display AI results.",
+    "description": "Hypergiant is an AI and technology company. During my time here I worked on some test coverage for embedded systems, and web-based projects to display AI results using React/Typescript and Nextjs.",
     "achievements": [
       "Created Brightscript unit tests and test documentation for Roku",
       "Developed web apps using Next.js, React, Chakra UI",
@@ -28,6 +44,7 @@
       "Javascript",
       "React",
       "Brightscript",
+      "Typescript",
       "Next.js",
       "Threej.js",
       "Roku"
@@ -36,6 +53,7 @@
   {
     "title": "Senior Software Engineer",
     "company": "ServiceNow",
+    "contract": false,
     "start": "2019-04-01T12:00-0500",
     "end": "2021-06-01T12:00-0500",
     "description": "ServiceNow is a leading ITSM solutions provider for some of the world's largest companies. During my time here I worked with a team of engineers to develop UI Builder, a low code editor for building pages on the platform.",
@@ -50,6 +68,7 @@
   {
     "title": "Senior Front End Developer",
     "company": "Gogo Air",
+    "contract": false,
     "start": "2014-04-01T12:00-0500",
     "end": "2019-01-01T12:00-0500",
     "description": "Gogo is a aerospace telecommunication company offering inflight internet and entertainment. My primary role at Gogo was focused on development of GogoVision, an inflight entertainment service. I created streaming video features for airlines such Delta, United, and American.",
@@ -57,7 +76,8 @@
       "GogoVision video streaming service for airlines",
       "Custom branding of turn-key products and feature development",
       "Implemented application features such as analytics and internationalization",
-      "Resolve technical issues with test environments and Jenkins"
+      "Resolve technical issues with test environments and Jenkins",
+      "Created the React frontend on cross-functional team for a payment solution"
     ],
     "skillset": [
       "Javascript",
@@ -72,6 +92,7 @@
   {
     "title": "Software Development Engineer",
     "company": "Samsung Accelerator",
+    "contract": false,
     "start": "2013-05-01T12:00-0500",
     "end": "2014-04-01T12:00-0500",
     "description": "Samsung Accelerator (now Samsung NEXT), is a software development program for creating new solutions that integrate with Samsung Electronics. My role was to develop prototypes and web support for Android applications.",
@@ -91,6 +112,7 @@
   {
     "title": "Application Developer",
     "company": "Grey Healthcare Group",
+    "contract": true,
     "start": "2012-12-01T12:00-0500",
     "end": "2013-06-01T12:00-0500",
     "description": "GHG (now Wunderman Thompson Health) is a leading digital marketing services agency for the healthcare industry. During my time here I completed a few projects including building responsive websites and iPad marketing products.",
@@ -104,6 +126,7 @@
   {
     "title": "Production Designer",
     "company": "The Daily",
+    "contract": false,
     "start": "2011-02-19T12:59-0500",
     "end": "2012-12-19T12:59-0500",
     "description": "The Daily was the first daily-published interactive news app for the iPad. I worked in a newsroom with editors and designers to create interactive articles, prototypes, and custom features.",
@@ -119,6 +142,27 @@
       "CSS3",
       "PHP",
       "Mapbox",
+      "Photoshop",
+      "Illustrator"
+    ]
+  },
+  {
+    "title": "Production Artist",
+    "company": "Sun Sentinel",
+    "contract": false,
+    "start": "1999-10-01T12:59-0500",
+    "end": "2010-02-01T12:59-0500",
+    "description": "The Sun Sentinel is a high circulation newspaper for South Florida. During my time here I worked in the prepress department, building and designing ads for retail, automotive and real-estate.",
+    "achievements": [
+      "Built and designed ads to specification",
+      "Communicate requirements with clients and sales reps",
+      "Apply best practices for layout and typography",
+      "Image and graphic processing using InDesign, Photoshop, and Illustrator"
+    ],
+    "skillset": [
+      "Typography",
+      "Layout Design",
+      "InDesign",
       "Photoshop",
       "Illustrator"
     ]
